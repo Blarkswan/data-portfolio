@@ -41,3 +41,34 @@ The raw dataset was provided in CSV format and was cleaned in Microsoft Excel to
    Outliers were retained to preserve the completeness and realism of the business dataset.
 
 The cleaned dataset was then saved as `Superstore_Sales_Cleaned.xlsx` for further analysis.
+
+## Exploratory Data Analysis (EDA)
+
+Exploratory analysis was conducted using PivotTables and PivotCharts in Microsoft Excel to identify key sales and performance patterns. The following analyses were performed:
+
+### 1. Sales and Profit by Region
+A PivotTable was created with **Region** as the row field and **Sales** and **Profit** as value fields.  
+This provided insight into:
+- Overall revenue contribution by region  
+- Regional profitability  
+- Identification of high- and low-performing areas
+
+### 2. Sales by Category and Sub-Category
+A PivotTable was created with **Category** and **Sub-Category** as row fields and **Sales**, **Quantity**, and **Profit** as value fields.  
+This analysis identified:
+- The most profitable product categories  
+- Sub-categories contributing the highest revenue  
+- Low-performing or unprofitable product lines
+
+### 3. Monthly Sales Trend
+A PivotTable was created with **Order Date** grouped by **Month** and **Year**, with **Sales** as the value field.  
+A PivotChart (line chart) was added to visualize:
+- Monthly seasonality  
+- Sales growth or decline trends  
+- Peak and low-performing months
+
+### 4. Top 10 Products by Sales
+A PivotTable was created with **Product Name** as the row field and **Sales** as the value field.  
+A Top-10 filter was applied to identify:
+- Best-selling products  
+- Product types driving the highest revenue  
